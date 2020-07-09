@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`formatMessagesData() check for data that will be represented for response 1`] = `
+Array [
+  Object {
+    "content": "Hi Jane",
+    "username": "Joe.doe@gmail.com",
+  },
+  Object {
+    "content": "Hi Jane. How was yur day today. e are not trading",
+    "username": "JANE.DOE@gmail.com",
+  },
+  Object {
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+    "username": "Joe.doe@gmail.com",
+  },
+  Object {
+    "content": "Great to hear. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,consectetur, adipisci velit...",
+    "username": "JANE.DOE@gmail.com",
+  },
+]
+`;
+
+exports[`getMessageContent() check for mapping of different objects 1`] = `
+Array [
+  Object {
+    "content": "Hi Jane",
+    "username": "Joe.doe@gmail.com",
+  },
+  Object {
+    "content": "Hi Jane. How was yur day today. e are not trading",
+    "username": "JANE.DOE@gmail.com",
+  },
+  Object {
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+    "username": "Joe.doe@gmail.com",
+  },
+  Object {
+    "content": "Great to hear. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,consectetur, adipisci velit...",
+    "username": "JANE.DOE@gmail.com",
+  },
+]
+`;
